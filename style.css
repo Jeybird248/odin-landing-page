@@ -1,0 +1,167 @@
+* {
+    font-family: roboto;
+    margin: 0;
+    padding:0;
+}
+
+.one, .two, footer {
+    background-color: #1F2937;
+}
+
+.one {
+    display: flex;
+    color: #C7CAD0;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar-links {
+    flex: 2;
+    display: flex;
+    white-space: nowrap;
+    
+}
+.navbar-links p {
+    padding: 5px;
+    margin: 10px;
+    font-family:sans-serif;
+    font-size: 16px;
+}
+
+.navbar-logo {
+    font-size: 20px;
+    padding: 15px;
+    flex: 2;
+    margin-left: 100px;
+    color:white;
+}
+
+.two {
+    height:300px;
+    display:flex;
+    align-items: center;
+    padding:50px;
+}
+.two-left {
+    flex:1;
+}
+.two-right {
+    flex: 1;
+}
+.two h1 {
+    font-size: 48px;
+    color:white;
+    margin: 10px 50px 0 50px;
+}
+.two p {
+    font-size: 18px;
+    color:#E5E7EB;
+    font-family:sans-serif;
+    margin: 10px 50px 10px 50px;
+}
+.two img {
+    width: 80%;
+    justify-content: right;
+}
+.two button {
+    background-color:#3B82F6;
+    color:white;
+    border:0;
+    border-radius: 5px;
+    width:70px;
+    height:30px;
+    margin: 10px 50px 0 50px;
+}
+.three, .four {
+    height: 450px;
+}
+.three h2 {
+    text-align:center;
+    margin: 50px;
+    font-size: 36px;
+    color: #1F2937;
+}
+.three figure {
+    width: 15%;
+}
+.three figcaption {
+    text-align: center;
+    margin-bottom: 50px;
+    width:90%;
+}
+.image-boxes-container {
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.image-boxes {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.four {
+    background-color:#E5E7EB;
+}
+.quote-container {
+    width: 55%;
+    margin: auto;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color:#2E3744;
+    font-family: roboto;
+    padding-top: 100px;
+    font-weight:300;
+}
+.quote-author {
+    font-size: 25px;
+    text-align: right;
+}
+.five {
+    height:200px;
+}
+.banner-container {
+    display:flex;
+    height: 125px;
+    background-color: #3B82F6;
+    align-items: center;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 10px;
+    margin-top: 75px;
+}
+.banner-right button {
+    background-color:#3B82F6;
+    color:white;
+    border:3px solid white;
+    border-radius: 5px;
+    width:120px;
+    height:40px;
+    margin: 10px 50px 0 200px;
+    font-size: 15px;
+    font-style: bold;
+}
+.banner-left {
+    margin-left:100px;
+    color:white;
+}
+.banner-left h3 {
+    font-size: 25px;
+}
+.banner-left p {
+    font-weight: 400;
+}
+footer {
+    text-align: center;
+    height: 50px;
+    width:100%;
+    color:white;
+    padding-top: 50px;
+}
